@@ -1,0 +1,266 @@
+@media (min-width: 320px) {
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+}
+@media (min-width: 480px) {
+    /* smartphones, Android phones, landscape iPhone */
+
+}
+@media (min-width: 600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+
+}
+@media (min-width: 50.0625em) {  /* 801px
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+    header{
+        /* height: 6.5em;        */
+    }
+    #page-banner-sec{
+        /* margin-top: 1em; */
+    }
+    .parallax-effect-glare-scale {
+        width: 50%;
+    }
+    .parallax-effect-glare-scale img{
+        height: 15em;
+    }
+
+    #home-banner-sec .home-banner-div .swiper{
+        order: 2;
+    }
+
+    #home-main-sec .home-main-div .img-div img{
+        height: 30em;
+        padding: 0;
+    }
+    section{
+   
+        width:100%
+    }
+    #home-sec-five .home-div-five{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .navbar-brand img {
+        width: 33%;
+    }
+    #home-pro-sec .home-pro-div{
+        grid-template-areas: "box-title box-content box-content "
+        "box-one info-one ."
+        "box-one box-two info-two "
+        "box-three box-two . "
+        "box-three info-three btn "
+
+;
+grid-template-rows: repeat(5,1fr);
+column-gap:0.5em;
+row-gap: 3em;
+place-items:center;
+    }
+    #home-feature-sec .home-feature-div {
+        -ms-grid-columns: (minmax(200px, 25%))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(200px, 25%));
+        place-content: center;
+        gap: 5em;
+    }
+    #home-pro-sec .home-pro-div div[class^='probox'] p {
+        width: 65%;
+    }
+    #home-pro-sec .home-pro-div div[class^='pro-box']{
+        padding: 2em;
+    }
+    #home-pro-sec .home-pro-div div[class^='pro-box'] img{
+        height: 200px;
+    }
+    #home-pro-sec .home-pro-div div[class^='pro-box'] h3{
+        font-size: 1.5rem;
+    }
+    #home-pro-sec .home-pro-div .top-text-box-content p{
+    
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    #home-gallery-sec .home-gallery-div .swiper{
+        height: auto;
+    
+       
+    }
+    .custom-shape-divider-top-1647854902{
+        display: flex;
+    }
+
+    footer .footer-top img {
+        max-width: 11%;
+    }
+
+    #product-section-wrapper .container{
+        grid-template-columns: 3fr 10fr;
+    }
+    #product-section-wrapper {
+        padding: 4em 0 4em 0;
+    }
+    #product-list-sec{
+        order: 2;
+    }
+    #home-about-sec .home-about-div .img-div svg{
+        width: 30rem;
+    }
+    #page-banner-sec{
+        height: 58vh;
+    }
+    footer .footer-links{
+        width: 90%;
+        flex-wrap: nowrap;
+    }
+    #contact-form-sec .contact-form-div{
+        grid-template-columns: 3.5fr 4fr;
+    }
+    #contact-form-sec .contact-form-div .form-div form{
+        padding: 3em;
+    }
+ 
+    #contact-form-sec .contact-form-div{
+        margin: 2em;
+    }
+    #contact-form-sec .contact-form-div{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    #contact-top-sec .contact-top-div{
+        gap: 5em;
+    }
+    #call-to-action-sec{
+        margin: 5em 0;
+    }
+    #contact-bottom-sec .contact-bottom-div{
+        gap: 4em;
+    }
+    #product-list-sec .product-list-div{
+        /* ms-grid-columns: (1fr)[3]; */
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2em;
+        row-gap: 4em;
+        padding: 1em;
+    }
+}
+@media (min-width: 1025px) {
+    /* big landscape tablets, laptops, and desktops */
+
+    #contact-top-sec .contact-top-div .box h2 {
+        color: #c22229;
+        padding-bottom: 0.3em;
+    }
+    #home-banner-sec h1{
+        font-size: 3rem;
+        padding-bottom: 0.5em;
+    }
+    #home-banner-sec p{
+        font-size: 1.5rem;
+        padding-bottom: 0.5em;
+    }
+    #home-banner-sec .home-banner-div .swiper .swiper-slide img{
+        height: auto;
+        padding: 1em;
+    }
+    .btn{
+        padding:0.3em 1.6em;
+        font-size:1rem;
+        border:none;
+    }
+    #home-banner-sec .home-banner-div{
+        height: 75vh;
+    }
+    #home-service-sec .home-service-div .home-service-box .box{
+        box-shadow: none;
+        padding: 1.5em;
+        font-weight: 500;
+    }
+    #home-service-sec .home-service-div .home-service-box{
+        box-shadow: 0px 4px 30px rgba(234, 87, 88, 0.3);
+        width: 80%;
+        border-radius: 15px;
+        padding: 1.5em 0;
+    }
+    #home-service-sec .home-service-div .home-service-box .box{
+        
+        border-right: 2px solid gray;
+    }
+    #home-service-sec .home-service-div .home-service-box .box:nth-child(4){
+        border:none;
+    }
+    #home-service-sec .home-service-div{
+        flex-direction: row;
+    }
+    #home-about-sec .home-about-div .img-div img{
+     padding: 2em;
+    }
+    #home-about-sec .home-about-div .img-div .shape-anim svg {
+        width: 29em;
+    }
+
+
+    .navbar-brand-img{
+        width: 100%;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+   
+    .nav-btn{
+        margin-left:1rem;
+    }
+    .bg-nav{
+        /* background-color:transparent; */
+}
+    #banner-sec .banner-content-div h1{
+        font-size: 3rem;
+        padding-bottom: 3rem;
+    }
+    #banner-sec .banner-content-div p{
+        font-size: 1rem;
+        padding-bottom: 3rem;
+    }
+    #home-supported-by-sec{
+        padding-top: 5em;
+    }
+    #home-sec-five{
+        padding: 3em;
+    }
+    #home-sec-five.home-div-five{
+
+        grid-template-columns: repeat(4,1fr);
+    
+    }
+       
+    #banner {
+        /* height: 98vh; */
+    }
+    #home-feature-sec {
+        padding: 5em 0;
+    }
+    #pro-categorie-sec .pro-categorie-div .box{
+        height: 20vh;
+    }
+    #home-about-sec {
+        padding: 6em 0;
+    }
+}
+@media (min-width: 1281px) {
+    /* hi-res laptops and desktops */
+
+    .btn{
+        font-size: 1.2rem;
+    }
+   
+}
+
+@media (min-width: 1920px) {
+    /* hi-res big desktops */
+
+    .btn{
+        font-size: 1.2rem;
+    }
+    #home-banner-sec h1{
+       font-size: 3.5rem;
+   }
+}

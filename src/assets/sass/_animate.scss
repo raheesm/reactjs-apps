@@ -1,0 +1,45 @@
+.rotate-me{
+    animation:rotate-me 12s forwards infinite;
+}
+@keyframes rotate-me{
+    to{
+        transform:rotate(1turn);
+    }
+}
+
+.to-right{
+    animation:to-right 19s forwards;
+}
+@keyframes to-right{
+    from{
+        transform:translateX(-160px);
+    }
+    to{
+        transform:translateX(30px);
+    }
+}
+.to-left{
+    animation:to-left 10s forwards;
+}
+@keyframes to-left{
+    from{
+        transform:translateX(55px);
+    }
+    to{
+        transform:translateX(-20px);
+    }
+}
+
+.zoom-me{
+    animation: zoom-me 19s forwards;
+    transform-origin: bottom center;
+    @keyframes zoom-me{
+        from{
+            transform:scale(0);
+        }
+        to{
+            transform:scale(1);
+        }
+    }
+}
+

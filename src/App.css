@@ -1,0 +1,11 @@
+.home-banner-div .swiper-button-prev{
+display: none!important;
+}
+.home-banner-div .swiper-button-next::after{
+font-size: 0.8rem;
+
+}
+.home-banner-div .swiper-button-next{
+font-size: 0.8rem;
+width: calc(var(--swiper-navigation-size)/ 30 * 27);
+}
